@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-UK"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Alex Stott"
+title                    : "Alexander Stott"
 title_separator          : "-"
 name                     : &name "Alex Stott"
 description              : &description "Alex Stott's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Planetary scientist"
   location         : "Toulouse"
-  employer         : "ISAE Supaero, Université de Toulouse"
+  employer         : "ISAE Supaero \nUniversité de Toulouse"
   uri              : # URL
   email            : "alexander.stott@isae-supaero.fr" 
 
