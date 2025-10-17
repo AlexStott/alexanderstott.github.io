@@ -9,56 +9,25 @@ redirect_from:
 
 {% include base_path %}
 
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/Stott_CVandPublications.pdf" class="btn btn--primary">Please see full CV here</a>
+</div>
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in "Latent variable signal processing and applications to planetary seismic instrumentation", Imperial College London, 2019
+* MEng in Electrical and Electronic Engineering, Imperial College London, 2014  
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023-2025: CNES (French space agency) fellowship at ISAE Supaero, Université de Toulouse
+  * A machine learning framework for geophysical and atmospheric monitoring in planetary science missions
+* 2020-2023: Postdoctorant at ISAE Supaero, Université de Toulouse
+* 2019-2020: Research Associate at Imperial College London
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Roles and responsibilities
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Co-lead of atmospheric working group on NASA Perseverance mission
+* Co-PI of PACIS instrument for the EDL phase of the ESA ExoMars mission
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
